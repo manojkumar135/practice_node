@@ -14,4 +14,4 @@ const placeSchema = new Schema({
     creator: { type: mongoose.Types.ObjectId, required: true, ref: 'User' }
 })
 
-module.exports = mongoose.model('Practice', placeSchema)
+module.exports = mongoose.model('Place', placeSchema)
